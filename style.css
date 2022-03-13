@@ -96,7 +96,7 @@ header nav ul li a
 #main-image 
 {
     height: 580px;
-    background: url("main.jpg")no-repeat center;
+    background: url("img/main.jpg")no-repeat center;
 }
 #main-image h2 
 {
@@ -159,43 +159,45 @@ header nav ul li a
 }
 #step-1
 {
-    background: url("steps-icon-1.png")no-repeat top center;
+    background: url("img/steps-icon-1.png")no-repeat top center;
     
 }
 #step-2 
 {
-    background: url("steps-icon-2.png")no-repeat top center;
+    background: url("img/steps-icon-2.png")no-repeat top center;
 }
 #step-3 
 {
-    background: url("steps-icon-3.png")no-repeat top center;
+    background: url("img/steps-icon-3.png")no-repeat top center;
 }
 /* POSSIBILITIES */
 
 #possibilities
 {
     background-color: #efefef;
-    padding: 60px 0;
-       
+    padding: 60px 0;  
 }
-#possibilities article
+#possibilities .article
 {
     width: 460px;
     height: 270px;
     border-radius: 10px;
-    
+   
 }
-#possibilities article:first-child
+#possibilities .article:nth-child(2)
 {
-    margin-right: 80px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 17rem;
+    float: right;
 }
 .article
 {
-    background: url("article-image-1.jpg");
+    background: url("img/bus.jpg");
 }
 .article
 {
-    background: url("article-image-2.jpg");
+    background: url("img/article-image-2.jpg");
 }
 .overlay
 {
